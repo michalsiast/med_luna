@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             @foreach($rotator->gallery->items as $item)
             <div class="swiper-slide slide-1 align-items-center d-flex custom_bg_slider"
-                 style="background-image: url('{{renderImage($item->url, 1920, 700, `fit`)}}'); background-size: cover;">
+                 style="background-image: url('{{renderImage($item->url, 1920, 700, `fit`)}}'); background-size: cover;background-position-y: 30%;">
                 <div class="swipeinner container">
                     <div class="row justify-content-center text-center">
                         <div class="col-12 col-sm-10">

@@ -90,7 +90,7 @@
 </section>
 
 
-<section class="bg-dark">
+<section class="bg-primary">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-6 col-lg-12" style="background-image: url({{ asset('images/why_me.jpg') }}); background-position: center; background-size: cover;">
